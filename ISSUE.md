@@ -6,18 +6,7 @@ Turbopack emits invalid VLQ column deltas in source maps for already-minified ve
 
 ## Link to the code that reproduces this issue
 
-<!--
-TODO: push the contents of /tmp/nextjs/vlq to a public GitHub repo and paste the URL here.
-The repo only needs:
-  - package.json
-  - tsconfig.json
-  - next.config.js
-  - app/layout.tsx
-  - app/page.tsx
-The dependency that triggers the bug is `simple-peer@9.11.1`, but the same bug occurs for any pre-minified file under node_modules — see "Additional context" for a second example (`react-jsx-dev-runtime.development.js`) that shows the same symptom.
--->
-
-`<paste public repro URL here>`
+https://github.com/aiwilliams/nextjs-turbopack-invalid-mappings-repro
 
 ## To Reproduce
 
