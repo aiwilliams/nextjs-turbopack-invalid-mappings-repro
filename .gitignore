@@ -1,0 +1,9 @@
+node_modules
+.next
+*.log
+page.html
+np.js
+np.js.map
+AGENTS.md
+CLAUDE.md
+next-env.d.ts
